@@ -1,4 +1,47 @@
 /*responsive for extra small-xsm*/
+/*hero section*/
+.hero{
+background-color: #fff;
+}
+.hero .container{
+    max-width: 1200px;
+    margin: 100px auto;
+}
+.hero .left-side{
+    margin: 0 30px;
+}
+.hero .left-side h1{
+    font-family: "Raleway",sans-serif;
+    font-size: 38px;
+    font-weight: 800;
+    line-height: 1.1;
+    text-transform: uppercase;
+}
+.hero .left-side p{
+    font-size: 15px;
+    line-height: 1.8;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    color: #666666;
+}
+.hero .left-side .btn{
+    padding: 8px 25px 5px;
+    display: inline-block;
+    font-size: 14px;
+    color:#62D2A2;
+    font-family: "Raleway",sans-serif;
+    font-weight: 600;
+    border: 1px solid #62D2A2;
+    text-transform: uppercase;
+    outline: none;
+}
+.hero .left-side .btn:hover{
+    background-color: #62D2A2;
+    color: #fff;
+}
+.hero .right-side .img{
+    max-width: 93%;
+}
 /*special section*/
 .special{
     margin: 12px;
